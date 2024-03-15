@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'assets/css/main.css'%}">
+</head>
+<style>
+    body{
+        background: linear-gradient(45deg,#0e156c,#550b71);
+    }
+    .std_details{
+        margin-left: 20px;
+        border: 0;
+    }
+    .form input{
+        height: 35px;
+        padding-left: 20px;
+        border-radius: 20px;
+        border: 0;
+    }
+</style>
+<body>
+    <div class="container1">
+        <div class="title">
+            <h1 style="color: #fff;"> Project Management</h1>
+        </div>
+    </div>
+
+
+    <div class="container2">
+        <div class="navbar">
+            <a href="{% url 'home' %}" style="color: #fff;">HOME</a>
+        </div>
+        <div class="navbar">
+            <a href="{% url 'student' %}" style="color: #fff;">STUDENTS</a>
+        </div>
+    </div>
+
+
+
+    <div class="container3">
+        {% for i in student_search %}
+        <div class="card1">
+            <div>
+                <img src="{{i.image.url}}" alt="Display_student_image">
+            </div>
+            <div class="std_details">
+                <div>
+                    <h1>{{i.project}}</h1>
+                </div>
+                <div>
+                    <p><b>Name:&nbsp;&nbsp;</b>{{i.name}}</p>
+                </div>
+                <div>
+                    <p><b>Roll No:&nbsp;&nbsp;</b>{{i.rollno}} - {{i.batch}}</p>
+                </div>
+                
+                <div class="nextpage">
+                    <a href="{% url 'project_details' i.name %}"><h3 >View More👉</h3></a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</body>
+</html>
+
