@@ -8,16 +8,25 @@ PROJECT TITLE - Project Documentation Management.
 -
 FEATURE
 -
--Where staffs can maintain and view the Project Documentation.
--Also they can Filter and retrive documentations by the students BATCH and ROLL NUMBER.
--Staff's can update/Delete/Add new students .
--And also the abstract is automatically readable by staff's.
+*Where staffs can maintain and view the Project Documentation.
+*Also they can Filter and retrive documentations by the students BATCH and ROLL NUMBER.
+*Staff's can update/Delete/Add new students .
+*And also the abstract is automatically readable by staff's.
 
-BUILD WITH:
+BUILD WITH
 -
--Python
--Django
--HTML, CSS, and JS
+*Python
+*Django
+*HTML, CSS, and JS
+
+INSTALLATION
+-
+*Clone the repository: git clone https://github.com/MathanKumararivalagan/Project-Documentation-management.git
+*Navigate to the project directory:  cd Abstract_Reader  
+*Install dependencies: pip install django
+*Set up the database: python manage.py makemigrationsand python manage.py migrate
+*Create a superuser for admin access: python manage.py createsuperuser
+*Start the development server: python manage.py runserver
 
 CONTIRBUTING
 -
