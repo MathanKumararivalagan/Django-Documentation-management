@@ -6,11 +6,11 @@ SCREENSHOTS:
 
 PROJECT TITLE - Project Documentation Management.
 -
-* The Project Documentation is Created for managing Final year students Projects based on their Batch ans Rollno. It helps to reduce the physical storage space and also make the resources available anytime. With the help of this, it reduces time for searching for particular Document of a particular student.
+* The Project Documentation is Created for managing Final year students Projects based on their Batch and Rollno. It helps to reduce the physical storage space and also make the resources available anytime. With the help of this, it reduces time for searching for particular Document of a particular student.
 
 FEATURE
 -
-* Where staffs can maintain and view the Project Documentation.
+* Where staffs can maintain and view the Project Documentation of final year students.
 * Also they can Filter and retrive documentations by the students BATCH and ROLL NUMBER.
 * Staff's can update/Delete/Add new students .
 * And also the abstract is automatically readable by staff's.
