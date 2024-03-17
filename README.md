@@ -6,40 +6,27 @@ SCREENSHOTS:
 
 PROJECT TITLE - Project Documentation Management.
 -
+* The Project Documentation is Created for managing Final year students Projects based on their Batch ans Rollno. It helps to reduce the physical storage space and also make the resources available anytime. With the help of this, it reduces time for searching for particular Document of a particular student.
 FEATURE
 -
-*Where staffs can maintain and view the Project Documentation.
-*Also they can Filter and retrive documentations by the students BATCH and ROLL NUMBER.
-*Staff's can update/Delete/Add new students .
-*And also the abstract is automatically readable by staff's.
+* Where staffs can maintain and view the Project Documentation.
+* Also they can Filter and retrive documentations by the students BATCH and ROLL NUMBER.
+* Staff's can update/Delete/Add new students .
+* And also the abstract is automatically readable by staff's.
 
 BUILD WITH
 -
-*Python
-*Django
-*HTML, CSS, and JS
+* Python
+* Django
+* HTML, CSS, and JS
 
 INSTALLATION
 -
-*Clone the repository: git clone https://github.com/MathanKumararivalagan/Project-Documentation-management.git
-*Navigate to the project directory:  cd Abstract_Reader  
-*Install dependencies: pip install django
-*Set up the database: python manage.py makemigrationsand python manage.py migrate
-*Create a superuser for admin access: python manage.py createsuperuser
-*Start the development server: python manage.py runserver
-
-CONTIRBUTING
--
+* Clone the repository: git clone https://github.com/MathanKumararivalagan/Project-Documentation-management.git
+* Navigate to the project directory:  cd Abstract_Reader  
+* Install dependencies: pip install django
+* Set up the database: python manage.py makemigrationsand python manage.py migrate
+* Create a superuser for admin access: python manage.py createsuperuser
+* Start the development server: python manage.py runserver
 
 
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
-
--OR-
-
- Markup : - Bullet list
-              - Nested bullet
-                  - Sub-nested bullet etc
-          - Bullet list item 2 
