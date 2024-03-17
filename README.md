@@ -30,4 +30,16 @@ INSTALLATION
 
 CONTIRBUTING
 -
-If you want to contribute, just open an issue and tell me where I can improve. Fork the repository and change whatever you'd like. Pull requests are always welcome.
+
+
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+
+-OR-
+
+ Markup : - Bullet list
+              - Nested bullet
+                  - Sub-nested bullet etc
+          - Bullet list item 2 
