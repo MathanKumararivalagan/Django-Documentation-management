@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "assets/css/home.css" %}">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="navbar">
+            <p>Django Documentation Management</p>
+            <a href="{% url "home" %}">Home</a>
+            <a href="{% url "student" %}">Students</a>
+        </div>
+    </div>
+    
+<div class="search">
+    <form method="get" action="{% url 'batch' %}" class="form" >
+        <label for="">BATCH :</label>
+        <input type="text" placeholder="    eg: 2024, 2025" name="batch" >
+        <button>🔍 Search</button>
+    </form>
+</div>
+    <div class="container3">
+        {% for i in student %}
+        <div class="card1">
+            <div>
+                <img src="{{i.image.url}}" alt="Display_student_image">
+            </div>
+            <div class="std_details">
+                <div>
+                    <h1>Django Portfolio Website</h1>
+                </div>
+                <div>
+                    <p><b>Name:</b>&nbsp;&nbsp;{{i.name}}</p>
+                </div>
+                <div>
+                    <p><b>Roll No:</b>&nbsp;&nbsp;{{i.rollno}}</p>
+                </div>
+                <div>
+                    <p><b>Batch:</b>&nbsp;&nbsp;{{i.batch}}</p>
+                </div>
+                
+                <div class="nextpage">
+                    <a href="{% url "project_details" i.name %}">View More</a>
+                </div>
+            </div>
+            
+            
+        </div>
+        {% endfor %}
+        </div>
+    
+       
+    </div>
+
+</body>
+</html>

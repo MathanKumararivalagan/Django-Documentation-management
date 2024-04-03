@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "assets/css/home.css" %}">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="navbar">
+            <p>Django Documentation Management</p>
+            <a href="{% url "home" %}">Home</a>
+            <a href="{% url "student" %}">Students</a>
+        </div>
+    </div>
+
+    <div class="container1">
+        <div>
+            <img src="{% static "assets/images/image1.jpg" %}" alt="image">
+        </div>
+        <div class="home-content">
+            <h1>Computer Science Documentation Management</h1>
+            <p>Explore Our MSC Computer Science, Final Year Students Project here!</p>
+        </div>
+        
+    </div>
+</body>
+</html>
