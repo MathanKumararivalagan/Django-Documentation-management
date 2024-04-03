@@ -1,4 +1,6 @@
 SCREENSHOTS:
+
+
 Home Page
 -
 ![Screenshot 2024-04-03 233850](https://github.com/MathanKumararivalagan/Project-Documentation-management/assets/155807290/66965839-a78c-4a32-a3f5-fcc77b2dc263)
@@ -42,8 +44,8 @@ BUILD WITH
 INSTALLATION
 -
 * Clone the repository: git clone https://github.com/MathanKumararivalagan/Project-Documentation-management.git
-* Navigate to the project directory:  cd Abstract_Reader  
-* Install dependencies: pip install django
+* Navigate to the project directory  
+* Install dependencies: pip install django, pip install pillow, pip install django-jazzmin
 * Set up the database: python manage.py makemigrationsand python manage.py migrate
 * Create a superuser for admin access: python manage.py createsuperuser
 * Start the development server: python manage.py runserver
