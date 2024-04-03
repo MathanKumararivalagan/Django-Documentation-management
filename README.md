@@ -1,25 +1,13 @@
 SCREENSHOTS:
--
-![Screenshot 2024-03-17 124222](https://github.com/MathanKumararivalagan/Project-Documentation-management/assets/155807290/87118e71-6a6d-41b3-8932-37c8b7c00c62)
+![Screenshot 2024-04-03 233850](https://github.com/MathanKumararivalagan/Project-Documentation-management/assets/155807290/66965839-a78c-4a32-a3f5-fcc77b2dc263)
 
-Filter by Batch
--
-![Screenshot 2024-03-17 124250](https://github.com/MathanKumararivalagan/Project-Documentation-management/assets/155807290/5dd80362-3724-4d9a-86f6-eeca3ee69abe)
+![Screenshot 2024-04-03 233906](https://github.com/MathanKumararivalagan/Project-Documentation-management/assets/155807290/6ca30416-cee2-4b42-b262-746483808768)
 
-Filter by Roll Number
--
-![Screenshot 2024-03-22 214904](https://github.com/MathanKumararivalagan/Project-Documentation-management/assets/155807290/47532ecf-d0e3-4767-8d57-2816424ce08a)
+![Screenshot 2024-04-03 234104](https://github.com/MathanKumararivalagan/Project-Documentation-management/assets/155807290/f8287855-937a-4433-95dc-12d8212177ec)
 
-Admin Side
--
-![Screenshot 2024-03-22 221231](https://github.com/MathanKumararivalagan/Project-Documentation-management/assets/155807290/e434a71b-33c8-4c32-a70e-1155d1c093f2)
+![Screenshot 2024-04-03 234116](https://github.com/MathanKumararivalagan/Project-Documentation-management/assets/155807290/002da068-52b8-4cc0-bf88-a06dd85dc40d)
 
-
-![Screenshot 2024-03-17 124329](https://github.com/MathanKumararivalagan/Project-Documentation-management/assets/155807290/fd1ccbc7-a76e-41f4-9c04-4c3d2be63c1f)
-
-![Screenshot 2024-03-22 214932](https://github.com/MathanKumararivalagan/Project-Documentation-management/assets/155807290/38a32c41-a63e-4ac1-a14f-afc6c4bb994a)
-
-
+![Screenshot 2024-04-03 234230](https://github.com/MathanKumararivalagan/Project-Documentation-management/assets/155807290/28f9db6b-9d7c-4e34-87f0-8089a3d6c0e7)
 
 
 PROJECT TITLE - Project Documentation Management.
