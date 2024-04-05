@@ -39,6 +39,7 @@ BUILD WITH
 -
 * Python
 * Django
+* MySQL
 * HTML, CSS, and JS
 
 INSTALLATION
